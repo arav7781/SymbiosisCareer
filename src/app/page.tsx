@@ -116,7 +116,7 @@ export default function SITJobSearchApp() {
   const [error, setError] = useState("");
   const [savedJobs, setSavedJobs] = useState<Job[]>([]);
   const [showCandidatesAnimation, setShowCandidatesAnimation] = useState(false);
-  const [activeTab, setActiveTab] = useState<"jobs" | "interview">("jobs");
+  const [activeTab, setActiveTab] = useState<"interview" | "jobs">("interview");
   const [interviewDomain, setInterviewDomain] = useState("");
   const [interviewCompany, setInterviewCompany] = useState("");
   const [difficultyFilter, setDifficultyFilter] = useState("all");
