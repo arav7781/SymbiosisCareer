@@ -33,8 +33,8 @@ CORS(app)
 socketio = SocketIO(app, cors_allowed_origins="*", async_mode='threading')
 
 # API Keys and configuration
-SERPAPI_API_KEY = "525fcda2cd63c50dba6f9f5eb2c8a9a09e0722fc9cc00f54c0e2f232b00acd09"
-GEMINI_API_KEY = "AIzaSyBUTIqLFwSd2p2lEZP2IH04PDfIDy43lCw"
+SERPAPI_API_KEY = ""
+GEMINI_API_KEY = ""
 SYSTEM_PROMPT = "You are an AI job search assistant specialized in finding AI/ML opportunities for Symbiosis Institute of Technology Pune 4th year students and fresh graduates."
 
 # Rate limiting
